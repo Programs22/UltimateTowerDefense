@@ -116,6 +116,7 @@ public class Node : MonoBehaviour
         Destroy(effect, 5f);
 
         Destroy(turret);
-        turretBlueprint = null;        
+        turretBlueprint = null;
+        isUpgraded = false;        
     }
 }

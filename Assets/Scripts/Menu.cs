@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class Menu : MonoBehaviour
 {
     public AudioSource audio;
+    public GameObject ui;
 
     private static bool audioIsPlaying = false;
 
@@ -25,5 +26,10 @@ public class Menu : MonoBehaviour
     public void Quit()
     {
         Application.Quit();
+    }
+
+    public void Help()
+    {
+        ui.SetActive(true);
     }
 }

@@ -353,6 +353,7 @@
 "Assets/Scripts/EnemyMovement.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/GameOver.cs"
+"Assets/Scripts/Help.cs"
 "Assets/Scripts/Lives.cs"
 "Assets/Scripts/Menu.cs"
 "Assets/Scripts/Money.cs"
